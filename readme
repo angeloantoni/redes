@@ -1,1 +1,18 @@
-hello
+Explicação do Código:
+Função ip_to_bin(ip):
+
+Converte um endereço IP do formato decimal (por exemplo, 192.168.1.10) para uma string binária (por exemplo, 11000000101010000000000100001010).
+
+Função same_network(ip1, ip2, mask):
+
+Converte os dois IPs para formato binário.
+
+Cria a máscara binária baseada no número de bits fornecido (mask).
+
+Calcula a rede aplicando a máscara binária aos IPs.
+
+Compara as redes para verificar se são iguais.
+
+Teste:
+
+Testa a função same_network com os IPs 192.168.1.10 e 192.168.1.20 com uma máscara de 24 bits (255.255.255.0), que deve retornar True se os IPs estiverem na mesma rede.
